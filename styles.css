@@ -1,0 +1,17 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  h1 {
+    text-align: center; 
+  }
+  
+  .movie {
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+  }
+  
+  .movie img {
+    width: 100%;
+  }
