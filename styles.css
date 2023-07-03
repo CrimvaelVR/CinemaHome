@@ -1,17 +1,79 @@
-body {
-    font-family: sans-serif;
+#search-form {
+    margin-bottom: 20px;
   }
   
-  h1 {
-    text-align: center; 
+  #movies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   
   .movie {
-    display: inline-block;
-    width: 30%;
-    padding: 10px;
+    width: 300px;
+    margin: 10px;
+    text-align: center;
   }
   
   .movie img {
     width: 100%;
+  }
+  
+  .movie h2 {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .movie p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .movie-detail {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .movie-detail img {
+    width: 250px;
+    margin-top: 20px;
+  }
+  
+  .movie-detail h2 {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  
+  .movie-detail p {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .movie-detail ul {
+    margin-top: 10px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .movie-detail li {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+  .movie-detail .cast {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 10px;
+    justify-items: center;
+  }
+  .movie-detail .actor {
+    text-align: center;
+  }
+  .movie-detail .actor img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 10px;
   }
